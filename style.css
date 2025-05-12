@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #202632;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #313A49;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    height: 190px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .advice-id {
+    color: #52ffa8;
+    font-size: 10px;
+    letter-spacing: 4px;
+    margin-bottom: 30px;
+  }
+  
+  .advice-text {
+    color: #cee3e9;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 0 30px;
+  }
+  
+  .divider {
+    height: 1px;
+    background-color: #4f5d73;
+    margin-bottom: 30px;
+  }
+  
+  .dice-button {
+    background-color: #52ffa8;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    color: #202733;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -30px;
+    
+  }
+  
+  .dice-button:hover {
+    background-color: #31d692;
+  }
